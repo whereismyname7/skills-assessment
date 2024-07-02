@@ -1,2 +1,35 @@
-<p class="text-danger">login works!</p>
-<i class="bi bi-123"></i>
+  <title>Login Page</title>
+
+<div class="container-fluid"> <!-- Ensure container fills viewport height -->
+  <div class="row">
+    <div class="col-md-6 d-flex align-items-center justify-content-center">
+      <form>
+        <h2 class="text-center">LOGIN</h2>
+        <p class="mb-6 text-center text-secondary">Please enter your credentials</p>
+        <div class="mb-3">
+          <label for="username" class="form-label">Username</label>
+          <input type="text" id="username" name="username" class="form-control" placeholder="Enter your username">
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" id="password" name="password" class="form-control" placeholder="*********">
+        </div>
+        
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="rememberMe">
+            <label class="form-check-label" for="rememberMe">Remember me</label>
+            <a href="#" class="text-decoration-none">Forgot password</a>
+          </div>
+         
+        
+        <button type="submit" class="btn btn-primary w-100">Sign in <i class="bi bi-box-arrow-in-right"></i></button>
+      </form>
+    </div>
+    <div class="col-md-6 d-flex align-items-center justify-content-center gradient">
+      <img src="assets/logo.png" alt="Tahakom Logo" class="img-fluid">
+    </div>
+  </div>
+</div>
+
+
+
