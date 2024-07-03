@@ -37,11 +37,13 @@ form{
 
 .form-control:hover{
   border: 1px solid #612550;
+  background-color: #f9e6f2;
 }
 
 .form-control:focus {
   box-shadow: none;
   border: 1px solid #612550;
+  background-color: #f9e6f2;
 }
 
 a{
@@ -52,5 +54,27 @@ a{
   left: 45%;
 }
 
+.error {
+  border: 1px solid #ff1e1e;
+  box-shadow: 0 4px 8px #f78787;
+  transition: all 0.3s ease;
+}
 
+.error-message{
+font-size: 12px;
+font-weight: 500;
+letter-spacing: 0.03em;
+text-align: center;
+border: 1px solid #9A0B11;
+background: #E8D0D1;
+box-shadow: 0px 4px 10px 0px #E9444B40;
+height: 22px;
+border-radius: 12px;
+color: #9A0B11;
+transition: all 0.3s ease;
+
+
+
+
+}
 
